@@ -122,37 +122,3 @@ h5 { margin-bottom: 20px; }
     align-items: center;
     margin: 10px 0;
 }
-@media screen and (max-width: 1600px) {}
-@media screen and (max-width: 768px) {}
-@media screen and (max-width: 350px) {
-    header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        margin: 0;
-    }
-   .svg-logo {
-       width: 40px;
-       height: 40px;
-   }
-    header .menu, .button { display: none; }
-
-    .congratulations {font-size: 14px;}
-    .paragraph { font-size: 12px; }
-    .kind-box {font-size: 10px;}
-    h5 {font-size: 8px;}
-    .flower {
-        width: 100px;
-        height: 100px;
-    }
-
-    .wrapper { flex-direction: column; gap: 30px; }
-    .box-text { gap: 10px; width: 70vw; }
-
-    .footer { flex-direction: column; }
-    .footer li, .box-links h4 { font-size: 8px; }
-    .box-links { flex-direction: column; gap: 10px; }
-    .svg-link { width: 15px; height: 15px; }
-}
-
