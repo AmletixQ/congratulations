@@ -1,0 +1,127 @@
+body {
+    background: rgb(0, 36, 19);
+    background: linear-gradient(31deg, rgba(0, 36, 19, 1) 0%, rgba(9, 121, 35, 1) 30%, rgba(0, 151, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+* {
+    color: white;
+    font-family: "Cascadia Code", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+    margin-bottom: 120px;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(249, 254, 255, 0.2);
+    border-radius: 30px;
+    height: 50px;
+    padding: 0 25px;
+}
+
+header li {
+    color: #dfb201;
+    background-color: rgba(13, 28, 59, 0.4);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+header li:hover {
+    color: #d9f101;
+    background-color: rgba(7, 24, 35, 0.4);
+    transition: 50ms;
+}
+
+ul { list-style: none; }
+.menu {
+    display: flex;
+    gap: 75px;
+}
+
+.button {
+    background-color: #ff7e00;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #663300;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.button:hover {
+    background-color: #ffaa00;
+    transition: 0.2s;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.box-text {
+    background: rgba(1, 28, 7, 0.2);
+
+    border: 2px solid #000;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    gap: 40px;
+    width: 700px;
+}
+
+.congratulations { margin-top: 20px; }
+
+h5 { margin-bottom: 20px; }
+
+.paragraph {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    background-color: rgba(28, 134, 1, 0.2);
+    border-top: 2px solid #000;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul { margin: 10px 10px; }
+
+.links { display: flex; margin-left: 10px; gap: 20px;}
+
+.box-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
