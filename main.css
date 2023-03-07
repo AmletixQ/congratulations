@@ -8,6 +8,13 @@ body {
     overflow-y: hidden;
 }
 
+.wonderful-word {
+    color: #000;
+    font-size: 24px;
+}
+
+button { cursor: pointer; }
+
 * {
     color: white;
     font-family: "Cascadia Code", sans-serif;
@@ -45,6 +52,7 @@ header li:hover {
     color: #d9f101;
     background-color: rgba(7, 24, 35, 0.4);
     transition: 50ms;
+    cursor: pointer;
 }
 
 ul { list-style: none; }
@@ -68,6 +76,103 @@ ul { list-style: none; }
     background-color: #ffaa00;
     transition: 0.2s;
 }
+
+.popup {
+    position: fixed;
+
+    background-color: #fff;
+
+    width: 350px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 10px;
+
+    scale: 0.1;
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.popup .heart-popup {
+    position: fixed;
+    transform: translateY(-105%);
+}
+
+.popup .close-popup {
+    position: fixed;
+    background: none;
+    border: 0;
+    transform: translate(300%, -70%);
+}
+
+.continue-button {
+    color: #000;
+
+    width: 70%;
+    height: 30px;
+
+    font-size: 16px;
+
+    margin-bottom: -20px;
+
+    background-color: #6fd649;
+    border: 1px solid #000;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+.close-button:hover {
+    background-color: #7BD36A;
+    font-size: 18px;
+}
+
+.mini-popup-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    text-align: center;
+
+    background-color: #F3A505;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+
+    position: fixed;
+    top: 3%;
+    left: 75%;
+
+    scale: 0.1;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.notification-image {
+    position: absolute;
+    top: 3%;
+    left: .43%;
+}
+
+.mini-popup-window h1, .mini-popup-window h2 {
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+
+    width: 300px;
+}
+
 
 .wrapper {
     display: flex;
